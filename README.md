@@ -3,11 +3,6 @@ resque-mission
 
 resque-mission adds Missions (multi-step jobs) to Resque.
 
-## Requirements/Dependencies
-
-* resque (1.x era)
-* resque-status
-
 ## Example
 
 ```ruby
@@ -58,3 +53,17 @@ TestMission.queue!({
   :c => "Accomplished"
 })
 ```
+
+## Requirements/Dependencies
+
+* [resque](http://github.com/defunkt/resque/) (1.8ish)
+* [resque-status](http://github.com/quirkey/resque-status/) (0.4ish)
+
+## Contributions
+
+Original implementation (and clever name) by [Matthew Lyon](http://github.com/mattly).
+Wrapping it up and delivering it as a plugin/gem (and maintaining it from here on out) by [Troy Howard](http://github.com/thoward)
+
+## Copyright
+
+Copyright © 2013 Troy Howard. See LICENSE for details.
