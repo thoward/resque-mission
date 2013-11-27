@@ -13,7 +13,7 @@ resque-mission adds Missions (multi-step jobs) to Resque.
 ```ruby
 require 'resque-mission'
 
-class TestMission < Mission
+class TestMission < Resque::Plugins::Mission
 
   # specify the queue (string/symbol)
   queue :test

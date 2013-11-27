@@ -2,7 +2,7 @@ require 'resque'
 require 'resque-status'
 
 module Resque
-  module Plugin
+  module Plugins
     class Mission
 
       attr_reader :progress
