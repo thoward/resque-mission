@@ -62,6 +62,7 @@ TestMission.queue!({
 ## Contributions
 
 Original implementation (and clever name) by [Matthew Lyon](http://github.com/mattly).
+
 Wrapping it up and delivering it as a plugin/gem (and maintaining it from here on out) by [Troy Howard](http://github.com/thoward)
 
 ## Copyright
